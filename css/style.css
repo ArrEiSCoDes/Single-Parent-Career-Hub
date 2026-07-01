@@ -41,3 +41,10 @@ button {
     width: 250px;
     border-radius: 10px;
 }
+.hero-img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 12px;
+}
