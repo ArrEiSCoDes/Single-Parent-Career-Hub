@@ -1,89 +1,72 @@
-# Single-Parent-Career-Hub
-Helping Single Parents find jobs, free training, resume help, interview preparation scholarships, and career resources
-# 👨‍👩‍👧‍👦 Single Parent Career Hub
+# 🌐 Single Parent Career Hub
 
-## 📖 Overview
-
-Single Parent Career Hub is a free career resource website designed to help single parents discover better career opportunities through free education, workforce programs, resume assistance, interview preparation, and career development resources.
-
-This project is being built as part of my AI and IT portfolio while I learn HTML, CSS, JavaScript, Git, GitHub, and AI technologies.
+A multi-page career support website designed to help single parents access free training, resume help, interview preparation, small business resources, and financial literacy tools.
 
 ---
 
-## 🎯 Mission
+## 🚀 Live Website[
 
-My mission is to make career advancement easier for single parents by collecting free opportunities that are often difficult to find, including:
-
-- Free job training
-- Apprenticeships
-- Scholarships
-- Workforce development programs
-- Resume assistance
-- Interview preparation
-- Remote job resources
-- Career planning
-- AI tools for job seekers
+https://YOUR-USERNAME.github.io/Single-Parent-Career-Hub/
 
 ---
 
-## 🚀 Features (Planned)
+## 🎯 Project Purpose
 
-- 🏠 Home Page
-- 📚 Free Training Directory
-- 💼 Career Path Explorer
-- 📄 Resume Builder
-- 🎤 Interview Practice
-- 🤖 AI Career Assistant
-- 💻 Remote Job Resources
-- 🎓 Scholarship Finder
-- 📅 Career Planner
-- 📖 Success Stories
+The goal of this project is to help single parents find real-world opportunities that support:
 
----
+- Job readiness  
+- Career development  
+- Financial stability  
+- Entrepreneurship  
+- Long-term growth  
 
-## 🛠 Technologies
-
-This project will be built using:
-
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- GitHub Pages
-
-Future versions may include:
-
-- AI APIs
-- Python
-- Databases
+This website was built as a practical learning project using HTML, CSS, and JavaScript.
 
 ---
 
-## 📅 Project Status
+## 🛠️ Technologies Used
 
-🚧 Currently Under Development
-
-This project is actively being built as I continue learning web development and AI.
-
----
-
-## 👩‍💻 About the Developer
-
-Hi! I'm Sierra Covington.
-
-I'm an aspiring AI, IT Support, and Cybersecurity professional passionate about building technology that helps families, communities, job seekers, nonprofits, and small businesses.
+- HTML5  
+- CSS3  
+- JavaScript  
+- GitHub Pages (deployment)
 
 ---
 
-## 📌 Future Goals
+## 📂 Website Pages
 
-- Build an AI-powered career coach
-- Create personalized training recommendations
-- Add resume analysis tools
-- Connect users with workforce organizations
-- Help thousands of single parents find better careers
+- Home Page  
+- Free Training  
+- Resume Help  
+- Interview Help  
+- Small Business  
+- Financial Literacy  
+- Contact Page  
 
 ---
 
-⭐ Thank you for visiting my project!
+## ✨ Features
+
+- Multi-page website structure  
+- Consistent navigation bar across all pages  
+- Responsive card-based layout  
+- Interactive JavaScript button  
+- Clean green-themed UI design  
+- Fully deployed live website  
+
+---
+
+## 💡 What I Learned
+
+- How to build multi-page websites  
+- How to link pages together  
+- How to style layouts using CSS  
+- How to structure reusable components  
+- How to deploy a live site using GitHub Pages  
+
+---
+
+## 👩‍💻 Creator
+
+Sierra Covington  
+Learning HTML • CSS • JavaScript • AI
