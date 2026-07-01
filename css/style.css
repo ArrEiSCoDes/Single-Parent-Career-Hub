@@ -85,3 +85,20 @@ footer {
     display: block;
     margin: 20px auto;
 }
+.hero-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
