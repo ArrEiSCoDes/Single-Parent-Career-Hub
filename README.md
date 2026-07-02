@@ -1,72 +1,65 @@
-# 🌐 Single Parent Career Hub
+# 🌟 Single Parent Career Hub
 
-A multi-page career support website designed to help single parents access free training, resume help, interview preparation, small business resources, and financial literacy tools.
-
----
-
-## 🚀 Live Website[
-
-https://YOUR-USERNAME.github.io/Single-Parent-Career-Hub/
+A web platform designed to help single parents access **free career resources, training, resume support, interview preparation, and financial literacy tools**.
 
 ---
 
-## 🎯 Project Purpose
+## 🎯 Mission
 
-The goal of this project is to help single parents find real-world opportunities that support:
-
-- Job readiness  
-- Career development  
-- Financial stability  
-- Entrepreneurship  
-- Long-term growth  
-
-This website was built as a practical learning project using HTML, CSS, and JavaScript.
+This project was built to support individuals and families by connecting them to opportunities that lead to:
+- Career stability  
+- Financial growth  
+- Educational advancement  
+- Small business development  
 
 ---
 
-## 🛠️ Technologies Used
+## 🧰 Features
 
-- HTML5  
-- CSS3  
-- JavaScript  
+- Multi-page website structure
+- Career resource navigation
+- Resume support section
+- Interview preparation resources
+- Free training links
+- Financial literacy tools
+- Responsive mobile design
+- Modern UI with cards and navigation
+
+---
+
+## 💻 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (basic interactions)
+- Git & GitHub
 - GitHub Pages (deployment)
 
 ---
 
-## 📂 Website Pages
+## 🌐 Live Website
 
-- Home Page  
-- Free Training  
-- Resume Help  
-- Interview Help  
-- Small Business  
-- Financial Literacy  
-- Contact Page  
+(Add your GitHub Pages link here)
+
+Example:
+https://yourusername.github.io/Single-Parent-Career-Hub/
 
 ---
 
-## ✨ Features
+## 📌 What I Learned
 
-- Multi-page website structure  
-- Consistent navigation bar across all pages  
-- Responsive card-based layout  
-- Interactive JavaScript button  
-- Clean green-themed UI design  
-- Fully deployed live website  
-
----
-
-## 💡 What I Learned
-
-- How to build multi-page websites  
-- How to link pages together  
-- How to style layouts using CSS  
-- How to structure reusable components  
-- How to deploy a live site using GitHub Pages  
+- Structuring multi-page websites
+- Building navigation systems
+- Using CSS for layout and design
+- Creating responsive web pages
+- Deploying a live website using GitHub Pages
 
 ---
 
-## 👩‍💻 Creator
+## 🚀 Future Improvements
 
-Sierra Covington  
-Learning HTML • CSS • JavaScript • AI
+- Add real job APIs
+- Build login system
+- Add downloadable resume templates
+- Create interactive career quizzes
+- Expand into a full resource platform
