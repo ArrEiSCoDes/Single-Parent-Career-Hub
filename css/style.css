@@ -1,157 +1,108 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7fc;
-    color: #333;
+/* =========================
+   RESET
+========================= */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-nav {
-    background-color: #2c6e49;
-    padding: 15px;
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef5ff;
+    color: #1f1f1f;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+========================= */
+h1 {
+    background: linear-gradient(90deg, #4da6ff, #1f4e79);
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-header {
-    text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(to bottom, #f4f7fc, #ffffff);
-}
-
-header h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 18px;
-    max-width: 700px;
-    margin: 0 auto 20px auto;
-}
-
-.hero-img {
-    width: 90%;
-    max-width: 700px;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.hero-btn {
-    display: block;
-    margin: 20px auto;
-    padding: 14px 28px;
-    font-size: 16px;
-    background-color: #2c6e49;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-
-.hero-btn:hover {
-    background-color: #1f4d34;
-    transform: scale(1.02);
-}
-
-section {
-    background: white;
-    margin: 25px auto;
-    padding: 30px;
-    max-width: 900px;
-    border-radius: 12px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
-}
-
+/* =========================
+   SUBHEADINGS
+========================= */
 h2 {
-    color: #2c6e49;
-    margin-bottom: 15px;
+    margin: 20px 0 10px;
+    color: #1f4e79;
 }
 
-ul {
-    line-height: 1.8;
-    padding-left: 20px;
+/* =========================
+   CONTAINER (MAIN LAYOUT BOX)
+========================= */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* =========================
+   NAV SECTION
+========================= */
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
 button {
-    background-color: #2c6e49;
+    background: #4da6ff;
     color: white;
     border: none;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 12px;
+    margin: 6px 0;
     border-radius: 8px;
     cursor: pointer;
-    transition: 0.2s ease;
+    width: 100%;
+    max-width: 400px;
 }
 
 button:hover {
-    background-color: #1f4d34;
-    transform: scale(1.02);
+    background: #1f4e79;
 }
 
-.card {
-    background-color: white;
-    border-radius: 14px;
-    padding: 22px;
-    margin: 20px auto;
-    max-width: 650px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-    transition: transform 0.2s ease;
+/* =========================
+   LINKS
+========================= */
+a {
+    text-decoration: none;
 }
 
-.card:hover {
-    transform: translateY(-4px);
+/* =========================
+   HORIZONTAL LINE
+========================= */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    margin-top: 30px;
+/* =========================
+   LISTS
+========================= */
+ul {
+    padding: 15px 25px;
+    line-height: 1.8;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-
-    nav a {
-        display: block;
-        margin: 8px 0;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    header p {
-        font-size: 16px;
-        padding: 0 10px;
-    }
-
-    section {
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .hero-img {
-        width: 100%;
-    }
-
-    .card {
-        margin: 15px;
-        width: auto;
-    }
+/* =========================
+   OPTIONAL CARD EFFECT
+========================= */
+.container:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease;
 }
