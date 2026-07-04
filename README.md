@@ -39,12 +39,7 @@ This project was built to support individuals and families by connecting them to
 
 ## 🌐 Live Website
 
-(Add your GitHub Pages link here)
-
-Example:
-https://yourusername.github.io/Single-Parent-Career-Hub/
-
----
+https://ArrEiSCoDes.github.io/Single-Parent-Career-Hub/
 
 ## 📌 What I Learned
 
