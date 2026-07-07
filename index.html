@@ -1,41 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Single Parent Career Hub</title>
-  <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Single Parent Career Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
-  <header class="site-header">
+
+
+<header class="site-header">
+
     <h1>Single Parent Career Hub</h1>
-    <p class="tagline">Career support, training, financial tools, and business resources for single parents.</p>
-  </header>
 
-  <main class="container">
-    <section class="hero-card">
-      <h2>Welcome</h2>
-      <p>
-        This hub is designed to help single parents explore career opportunities, improve resumes,
-        find training, strengthen financial literacy, and build small businesses.
-      </p>
+    <p>
+        Flexible career pathways, training, and resources designed for parents building a stronger future.
+    </p>
 
-      <div class="button-group">
-        <a class="btn" href="career.html">Career Development</a>
-        <a class="btn" href="resume.html">Resume Support</a>
-        <a class="btn" href="training.html">Training & Certifications</a>
-        <a class="btn" href="financial.html">Financial Literacy</a>
-        <a class="btn" href="business.html">Business Tools</a>
-      </div>
-    </section>
+</header>
 
-    <section class="hero-card">
-      <h2>Explore the Opportunity Platform</h2>
-      <p>Visit the connected platform for additional resource pages and project expansion.</p>
-      <a class="btn secondary" href="https://arreiscodes.github.io/Opportunity-Platform/">
-        Go to Opportunity Platform
-      </a>
-    </section>
-  </main>
+
+
+<main class="container">
+
+
+<section class="card">
+
+<h2>Welcome to Single Parent Career Hub</h2>
+
+<p>
+This platform helps single parents discover career opportunities,
+flexible training programs, resume support, financial resources,
+and business tools designed around real-life responsibilities.
+</p>
+
+
+<div class="button-grid">
+
+
+<a href="career.html" class="btn">
+Career Opportunities
+</a>
+
+
+<a href="resume.html" class="btn">
+Resume Support
+</a>
+
+
+<a href="training.html" class="btn">
+Training Programs
+</a>
+
+
+<a href="financial.html" class="btn">
+Financial Resources
+</a>
+
+
+<a href="business.html" class="btn">
+Business Support
+</a>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section class="card">
+
+<h2>
+Need Help Finding Your Next Opportunity?
+</h2>
+
+
+<p>
+Tell us what type of support you need. 
+We want to help connect parents with realistic opportunities
+that fit their schedule and goals.
+</p>
+
+
+
+
+<form id="supportForm">
+
+
+<label for="name">
+Full Name
+</label>
+
+
+<input 
+type="text"
+id="name"
+placeholder="Enter your name"
+required>
+
+
+
+<label for="email">
+Email Address
+</label>
+
+
+<input 
+type="email"
+id="email"
+placeholder="Enter your email"
+required>
+
+
+
+
+<label for="supportType">
+What support do you need?
+</label>
+
+
+<select id="supportType" required>
+
+
+<option value="">
+Select an option
+</option>
+
+
+<option>
+Flexible job opportunities
+</option>
+
+
+<option>
+Remote work options
+</option>
+
+
+<option>
+Training and certifications
+</option>
+
+
+<option>
+Resume and application help
+</option>
+
+
+<option>
+Starting a business
+</option>
+
+
+<option>
+Returning to work
+</option>
+
+
+</select>
+
+
+
+
+
+<label>
+What challenges affect your availability?
+</label>
+
+
+<div class="checkbox-group">
+
+
+<label>
+<input type="checkbox">
+Need work around child's schedule
+</label>
+
+
+
+<label>
+<input type="checkbox">
+Need remote opportunities
+</label>
+
+
+
+<label>
+<input type="checkbox">
+Need flexible training
+</label>
+
+
+
+<label>
+<input type="checkbox">
+Childcare limitations
+</label>
+
+
+
+</div>
+
+
+
+
+
+
+<label for="message">
+Tell us more
+</label>
+
+
+<textarea
+id="message"
+rows="5"
+placeholder="What type of support would help you most?"
+required></textarea>
+
+
+
+
+<button 
+type="submit"
+class="btn submit-btn">
+
+Submit Request
+
+</button>
+
+
+
+</form>
+
+
+
+
+<div id="formMessage"></div>
+
+
+
+</section>
+
+
+
+
+
+<section class="card">
+
+<h2>
+Explore More Resources
+</h2>
+
+
+<p>
+Visit the connected Opportunity Platform for additional workforce and community resources.
+</p>
+
+
+<a 
+href="https://arreiscodes.github.io/Opportunity-Platform/"
+class="btn">
+
+Opportunity Platform
+
+</a>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<script src="script.js"></script>
+
+
 </body>
+
 </html>
