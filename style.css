@@ -312,3 +312,107 @@ width:100%;
 
 
 }
+/* Inquiry Form */
+
+form {
+    margin-top:20px;
+}
+
+
+form label {
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    color:#173b63;
+
+}
+
+
+
+form input,
+form select,
+form textarea {
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:1px solid #c9dff5;
+
+    font-size:16px;
+
+}
+
+
+
+form textarea {
+
+    resize:vertical;
+
+}
+
+
+
+.checkbox-group {
+
+    margin-top:10px;
+
+}
+
+
+
+.checkbox-group label {
+
+    font-weight:normal;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.checkbox-group input {
+
+    width:auto;
+
+    margin-right:8px;
+
+}
+
+
+
+.submit-btn {
+
+    width:100%;
+
+    margin-top:20px;
+
+}
+
+
+
+#formMessage {
+
+    display:none;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    background:#e7f8ed;
+
+    color:#176b38;
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+}
