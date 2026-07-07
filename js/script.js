@@ -1,26 +1,60 @@
-const form = document.getElementById("supportForm");
+document.addEventListener("DOMContentLoaded", function () {
 
-const formMessage = document.getElementById("formMessage");
+    // Welcome message
+    const welcomeMessage = document.getElementById("welcomeMessage");
 
+    if (welcomeMessage) {
 
+        setTimeout(function () {
 
-form.addEventListener("submit", function(event){
+            welcomeMessage.classList.add("show");
 
+        }, 500);
 
-event.preventDefault();
-
-
-
-formMessage.style.display="block";
-
-
-formMessage.textContent =
-"Thank you for reaching out! Your request has been received. We will help connect you with resources that fit your goals and schedule.";
+    }
 
 
+    // Start Exploring Resources button
+    const startButton = document.getElementById("startButton");
 
-form.reset();
+    if (startButton) {
 
+        startButton.addEventListener("click", function () {
+
+            const resources = document.getElementById("resources");
+
+            if (resources) {
+
+                resources.scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            }
+
+        });
+
+    }
+
+
+    // Resource card hover interaction
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(function(card) {
+
+        card.addEventListener("mouseenter", function() {
+
+            card.classList.add("active");
+
+        });
+
+
+        card.addEventListener("mouseleave", function() {
+
+            card.classList.remove("active");
+
+        });
+
+    });
 
 
 });
