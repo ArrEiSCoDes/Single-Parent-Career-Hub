@@ -76,26 +76,30 @@ const resources = [
     }
 ];
 
-const resourceContainer = document.getElementById("resource-container");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (resourceContainer) {
+    const resourceContainer = document.getElementById("resource-container");
 
-    resources.forEach(resource => {
+    if (resourceContainer) {
 
-        const card = document.createElement("div");
+        resources.forEach(resource => {
 
-        card.classList.add("resource-card");
+            const card = document.createElement("div");
 
-        card.innerHTML = `
-            <h3>${resource.title}</h3>
-            <p>${resource.description}</p>
-            <a href="${resource.link}" target="_blank">
-                Learn More
-            </a>
-        `;
+            card.classList.add("resource-card");
 
-        resourceContainer.appendChild(card);
+            card.innerHTML = `
+                <h3>${resource.title}</h3>
+                <p>${resource.description}</p>
+                <a href="${resource.link}" target="_blank">
+                    Learn More
+                </a>
+            `;
 
-    });
+            resourceContainer.appendChild(card);
 
-}
+        });
+
+    }
+
+});
