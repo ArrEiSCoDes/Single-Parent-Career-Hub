@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Explore beginner-friendly AI courses and certifications.",
       link: "https://www.coursera.org"
     },
+
     {
       title: "Per Scholas Technology Training",
       image: "https://www.per-scholas.org/wp-content/uploads/2023/06/per-scholas-logo.png",
       description: "Free technology training programs for IT career pathways.",
       link: "https://www.per-scholas.org"
     },
+
     {
       title: "Remote Work Opportunities",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FlexJobs_logo.svg/512px-FlexJobs_logo.svg.png",
