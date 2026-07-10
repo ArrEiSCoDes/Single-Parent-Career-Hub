@@ -4,25 +4,19 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       title: "Free AI Learning Resources",
       image: "https://upload.wikimedia.org/wikipedia/commons/0/04/Coursera_logo.svg",
-      description:
-        "Explore beginner-friendly AI courses, certifications, and career skills.",
+      description: "Explore beginner-friendly AI courses and certifications.",
       link: "https://www.coursera.org"
     },
-
     {
       title: "Per Scholas Technology Training",
       image: "https://www.per-scholas.org/wp-content/uploads/2023/06/per-scholas-logo.png",
-      description:
-        "Free technology training programs that help learners prepare for IT careers.",
+      description: "Free technology training programs for IT career pathways.",
       link: "https://www.per-scholas.org"
     },
-
     {
       title: "Remote Work Opportunities",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FlexJobs_logo.svg/512px-FlexJobs_logo.svg.png",
-      description:
-        "Flexible job opportunities for parents balancing work and family.",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FlexJobs_logo.svg/512px-FlexJobs_logo.svg.png",
+      description: "Flexible job opportunities for people balancing work and family.",
       link: "https://www.flexjobs.com"
     }
   ];
@@ -45,12 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     card.innerHTML = `
-      <a href="${resource.link}" target="_blank">
+      <a href="${resource.link}" target="_blank" rel="noopener noreferrer">
 
-        <img 
-          src="${resource.image}" 
-          alt="${resource.title}"
-        >
+        <img src="${resource.image}" alt="${resource.title}">
 
         <div class="resource-info">
 
@@ -68,5 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   });
 
+
+  console.log("AI Spotlight loaded successfully");
 
 });
