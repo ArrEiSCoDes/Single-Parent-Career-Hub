@@ -465,31 +465,160 @@ border:none;
 border-radius:15px;
 
 }
+/* =========================
+   Community Resource Spotlight
+========================= */
+
 .resource-spotlight {
-    margin: 40px auto;
-    padding: 30px;
-    max-width: 900px;
-    border-radius: 15px;
+    margin-top: 30px;
+    padding-top: 10px;
 }
 
 .resource-spotlight h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    color: #173b63;
 }
 
+.resource-spotlight p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #374151;
+}
+
+/* Carousel wrapper */
+.resource-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+/* Left/right arrow buttons */
+.carousel-btn {
+    background: #67b7ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.carousel-btn:hover {
+    background: #2d7fc8;
+    transform: scale(1.05);
+}
+
+/* Track that holds the cards */
+.resource-track {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* Individual image card */
 .resource-card {
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 12px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    background: #dbeafe;
 }
 
-.resource-card h3 {
-    margin-bottom: 10px;
-}
-
+/* Make the whole card clickable */
 .resource-card a {
-    display: inline-block;
-    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
-    font-weight: bold;
+    color: white;
+    position: relative;
+}
+
+/* Card image */
+.resource-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay info hidden until hover */
+.resource-info {
+    position: absolute;
+    inset: auto 0 0 0;
+    background: rgba(23, 59, 99, 0.88);
+    color: white;
+    padding: 16px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover .resource-info {
+    transform: translateY(0);
+}
+
+.resource-info h3 {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.resource-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: left;
+    color: white;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 900px) {
+    .resource-card {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 700px) {
+    .resource-carousel {
+        gap: 10px;
+    }
+
+    .carousel-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 1.2rem;
+    }
+
+    .resource-track {
+        gap: 12px;
+    }
+
+    .resource-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .resource-info {
+        padding: 12px;
+    }
+
+    .resource-info h3 {
+        font-size: 0.95rem;
+    }
+
+    .resource-info p {
+        font-size: 0.8rem;
+    }
 }
