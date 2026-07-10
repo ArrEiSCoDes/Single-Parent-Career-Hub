@@ -1,122 +1,94 @@
-document.addEventListener("DOMContentLoaded", function () {
+const resources = [
+  {
+    title: "Free AI Learning Resources",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/04/Coursera_logo.svg",
+    description:
+      "Explore beginner-friendly AI courses and career skills that can help parents build new opportunities.",
+    info:
+      "AI can help identify learning pathways based on your goals, schedule, and career interests.",
+    link: "https://www.coursera.org"
+  },
 
-    // =========================
-    // Welcome section button
-    // =========================
-    const startButton = document.getElementById("startButton");
+  {
+    title: "Per Scholas Technology Training",
+    image: "https://www.per-scholas.org/wp-content/uploads/2023/06/per-scholas-logo.png",
+    description:
+      "Free technology training programs that help learners enter IT careers.",
+    info:
+      "Provides career training, professional development, and employer connections for technology careers.",
+    link: "https://www.per-scholas.org"
+  },
 
-    if (startButton) {
-        startButton.addEventListener("click", function () {
-            const resourcesSection = document.getElementById("resources");
-
-            if (resourcesSection) {
-                resourcesSection.scrollIntoView({
-                    behavior: "smooth"
-                });
-            }
-        });
-    }
-
-
-    // =========================
-    // Card hover interaction
-    // =========================
-    const cards = document.querySelectorAll(".card");
-
-    cards.forEach(function (card) {
-        card.addEventListener("mouseenter", function () {
-            card.classList.add("active");
-        });
-
-        card.addEventListener("mouseleave", function () {
-            card.classList.remove("active");
-        });
-    });
+  {
+    title: "Remote Work Opportunities",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FlexJobs_logo.svg/512px-FlexJobs_logo.svg.png",
+    description:
+      "Find flexible jobs designed for people balancing work and family responsibilities.",
+    info:
+      "Remote and flexible job options can help parents find employment that fits their schedules.",
+    link: "https://www.flexjobs.com"
+  }
+];
 
 
-    // =========================
-    // Community Resource Spotlight Carousel
-    // =========================
-    const resources = [
-        {
-            image: "images/technology-training.png",
-            title: "Technology Training",
-            description: "Build skills through free technology training, certifications, and career pathways.",
-            link: "https://perscholas.org"
-        },
-        {
-            image: "images/career-support.png",
-            title: "Career Support",
-            description: "Explore resume help, job preparation, and workforce development resources.",
-            link: "resume.html"
-        },
-        {
-            image: "images/housing-resources.png",
-            title: "Housing Resources",
-            description: "Find support programs and housing-related resources for families and parents.",
-            link: "financial.html"
-        },
-        {
-            image: "images/healthcare-benefits.png",
-            title: "Healthcare & Benefits",
-            description: "Connect with benefits access, healthcare navigation, and community support resources.",
-            link: "financial.html"
-        },
-        {
-            image: "images/small-business.png",
-            title: "Small Business Support",
-            description: "Access tools, guidance, and support for entrepreneurs building their future.",
-            link: "business.html"
-        }
-    ];
+const container = document.getElementById("resource-container");
 
-    const resourceContainer = document.getElementById("resource-container");
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
 
-    let currentIndex = 0;
-    const cardsPerView = 3;
+if (container) {
 
-    function renderResources() {
-        if (!resourceContainer) return;
+  resources.forEach(resource => {
 
-        resourceContainer.innerHTML = "";
+    const card = document.createElement("div");
 
-        for (let i = 0; i < cardsPerView; i++) {
-            const resourceIndex = (currentIndex + i) % resources.length;
-            const resource = resources[resourceIndex];
+    card.className = "resource-card";
 
-            const card = document.createElement("div");
-            card.classList.add("resource-card");
+    card.innerHTML = `
 
-            card.innerHTML = `
-                <a href="${resource.link}" target="_blank">
-                    <img src="${resource.image}" alt="${resource.title}">
-                    <div class="resource-info">
-                        <h3>${resource.title}</h3>
-                        <p>${resource.description}</p>
-                    </div>
-                </a>
-            `;
+      <div class="resource-image-container">
 
-            resourceContainer.appendChild(card);
-        }
-    }
+        <img 
+          src="${resource.image}" 
+          alt="${resource.title}"
+          class="resource-image"
+        >
 
-    if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
-            currentIndex = (currentIndex + 1) % resources.length;
-            renderResources();
-        });
-    }
+      </div>
 
-    if (prevBtn) {
-        prevBtn.addEventListener("click", function () {
-            currentIndex = (currentIndex - 1 + resources.length) % resources.length;
-            renderResources();
-        });
-    }
 
-    renderResources();
+      <h3>${resource.title}</h3>
 
-});
+
+      <p>
+        ${resource.description}
+      </p>
+
+
+      <div class="info-popup">
+
+        <strong>AI Summary:</strong>
+
+        <p>
+          ${resource.info}
+        </p>
+
+      </div>
+
+
+      <a 
+        href="${resource.link}" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="resource-link"
+      >
+        Visit Resource →
+      </a>
+
+    `;
+
+
+    container.appendChild(card);
+
+  });
+
+}
