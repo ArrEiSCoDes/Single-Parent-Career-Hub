@@ -1,280 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Single Parent Career Hub</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Parent Career Hub</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
-
 <body>
-
-
-<header class="site-header">
-
-<h1>
-Single Parent Career Hub
-</h1>
-
-
-<p>
-Flexible career pathways, training, and resources designed for parents building a stronger future.
-</p>
-
-
-<button id="startButton" class="btn">
-Start Exploring Resources
-</button>
-
-
-</header>
-
-
-
-
-
-<main class="container">
-
-
-<section class="card">
-
-
-<h2>
-Welcome to Single Parent Career Hub
-</h2>
-
-
-<p>
-This platform helps single parents discover realistic career opportunities,
-training programs, resume support, financial resources, and business tools
-designed around real-life responsibilities.
-</p>
-<section class="resource-spotlight">
-    <section class="resource-spotlight">
-
-    <h2>🌟 Community Resource Spotlight</h2>
-
+  <header class="site-header">
+    <h1>Single Parent Career Hub</h1>
     <p>
-        Explore current opportunities, programs, and resources designed to
-        support career growth, education, financial stability, and community access.
+      Flexible career pathways, training, and resources designed for parents building a stronger future.
     </p>
 
+    <button id="startButton" class="btn">Start Exploring Resources</button>
+  </header>
 
-    <div class="carousel">
+  <main class="container">
+    <section class="card">
+      <h2>Welcome to Single Parent Career Hub</h2>
 
-        <button 
-            id="prevBtn" 
+      <p>
+        This platform helps single parents discover realistic career opportunities,
+        training programs, resume support, financial resources, and business tools
+        designed around real-life responsibilities.
+      </p>
+
+      <section class="resource-spotlight">
+        <h2>🌟 Community Resource Spotlight</h2>
+
+        <p>
+          Explore current opportunities, programs, and resources designed to
+          support career growth, education, financial stability, and community access.
+        </p>
+
+        <div class="resource-carousel">
+          <button
+            id="prevBtn"
             class="carousel-btn"
-            aria-label="Previous resource">
+            aria-label="Previous resource"
+            type="button"
+          >
             ❮
-        </button>
+          </button>
 
+          <div class="resource-track" id="resource-container">
+            <!-- JavaScript will render resource cards here -->
+          </div>
 
-        <div id="resource-container">
-
-            <!-- 
-            Resource cards will appear here using JavaScript.
-            Each card connects visitors to trusted resources.
-            -->
-
-        </div>
-
-
-        <button 
-            id="nextBtn" 
+          <button
+            id="nextBtn"
             class="carousel-btn"
-            aria-label="Next resource">
+            aria-label="Next resource"
+            type="button"
+          >
             ❯
-        </button>
-
-    </div>
-
-</section>
-</section>
-
-</section>
-
-
-
-
-
-
-
-<section class="card" id="resources">
-
-
-<h2>
-Explore Resources
-</h2>
-
-
-<p>
-Find support that fits your goals, schedule, and family responsibilities.
-</p>
-
-
-
-<div class="button-grid">
-
-
-<a href="about.html" class="btn">
-About Our Mission
-</a>
-
-
-<a href="career.html" class="btn">
-Career Opportunities
-</a>
-
-
-<a href="resume.html" class="btn">
-Resume Support
-</a>
-
-
-<a href="training.html" class="btn">
-Training Programs
-</a>
-
-
-<a href="financial.html" class="btn">
-Financial Resources
-</a>
-
-
-<a href="business.html" class="btn">
-Business Support
-</a>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<section class="card">
-
-
-<h2>
-Why Single Parent Career Hub Exists
-</h2>
-
-
-<p>
-Many parents need opportunities that work around childcare,
-school schedules, transportation challenges, and family responsibilities.
-This platform focuses on helping parents find resources that fit their lives.
-</p>
-
-
-<a href="about.html" class="btn">
-Learn More About Our Mission
-</a>
-
-
-</section>
-
-
-
-
-
-
-
-<section class="card">
-
-
-<h2>
-Find My Resources
-</h2>
-
-
-<p>
-Tell us what support you need and we will help connect you with
-career opportunities, training programs, and resources designed
-with parents in mind.
-
-You may remain anonymous. An email address is required only so we can
-provide follow-up resources and support.
-</p>
-
-
-
-
-<div class="form-container">
-
-
-<iframe 
-src="https://docs.google.com/forms/d/e/1FAIpQLSdq44Zj7Xgv6vB4DLvR5Y0x25Js7oCZofZzMu5M0MPSyL4HKA/viewform?embedded=true"
-width="100%"
-height="1706"
-frameborder="0"
-marginheight="0"
-marginwidth="0">
-
-Loading…
-
-</iframe>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<section class="card">
-
-
-<h2>
-Looking for More Career Opportunities?
-</h2>
-
-
-<p>
-The Opportunity Platform provides broader workforce resources,
-career development tools, training programs, and professional growth
-opportunities for anyone seeking their next step.
-</p>
-
-
-
-<a 
-href="https://arreiscodes.github.io/Opportunity-Platform/"
-class="btn">
-Visit Opportunity Platform
-</a>
-
-</section>
-
-
-
-
-
-</main>
-
-
-
-
-<script src="js/script.js"></script>
-
-
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="card" id="resources">
+      <h2>Explore Resources</h2>
+
+      <p>
+        Find support that fits your goals, schedule, and family responsibilities.
+      </p>
+
+      <div class="button-grid">
+        <a href="about.html" class="btn">About Our Mission</a>
+        <a href="career.html" class="btn">Career Opportunities</a>
+        <a href="resume.html" class="btn">Resume Support</a>
+        <a href="training.html" class="btn">Training Programs</a>
+        <a href="financial.html" class="btn">Financial Resources</a>
+        <a href="business.html" class="btn">Business Support</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Why Single Parent Career Hub Exists</h2>
+
+      <p>
+        Many parents need opportunities that work around childcare, school schedules,
+        transportation challenges, and family responsibilities. This platform focuses
+        on helping parents find resources that fit their lives.
+      </p>
+
+      <a href="about.html" class="btn">Learn More About Our Mission</a>
+    </section>
+
+    <section class="card">
+      <h2>Find My Resources</h2>
+
+      <p>
+        Tell us what support you need and we will help connect you with career
+        opportunities, training programs, and resources designed with parents in mind.
+      </p>
+
+      <p>
+        You may remain anonymous. An email address is required only so we can provide
+        follow-up resources and support.
+      </p>
+
+      <div class="form-container">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdq44Zj7Xgv6vB4DLvR5Y0x25Js7oCZofZzMu5M0MPSyL4HKA/viewform?embedded=true"
+          width="100%"
+          height="1706"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Looking for More Career Opportunities?</h2>
+
+      <p>
+        The Opportunity Platform provides broader workforce resources, career
+        development tools, training programs, and professional growth opportunities
+        for anyone seeking their next step.
+      </p>
+
+      <a
+        href="https://arreiscodes.github.io/Opportunity-Platform/"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit Opportunity Platform
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
