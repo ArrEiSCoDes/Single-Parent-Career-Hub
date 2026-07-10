@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +19,7 @@
   </header>
 
   <main class="container">
+
     <section class="card">
       <h2>Welcome to Single Parent Career Hub</h2>
 
@@ -27,4 +29,124 @@
         designed around real-life responsibilities.
       </p>
 
-     Added image-based Community Resource Spotlight carousel
+      <section class="resource-spotlight">
+        <h2>🌟 AI Resource Spotlight</h2>
+
+        <p>
+          Explore AI-curated resources, opportunities, and support tools selected to help
+          single parents quickly find pathways to training, employment, financial stability,
+          benefits access, and community-based support.
+        </p>
+
+        <p class="spotlight-note">
+          Updated weekly with featured opportunities, organizations, and helpful links.
+          Hover over each spotlight card for a quick summary, then click to learn more.
+        </p>
+
+        <div class="resource-carousel">
+          <button
+            id="prevBtn"
+            class="carousel-btn"
+            aria-label="Previous resource"
+            type="button"
+          >
+            ❮
+          </button>
+
+          <div class="resource-track" id="resource-container">
+            <!-- JavaScript will render AI spotlight cards here -->
+          </div>
+
+          <button
+            id="nextBtn"
+            class="carousel-btn"
+            aria-label="Next resource"
+            type="button"
+          >
+            ❯
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="card" id="resources">
+      <h2>Explore Resources</h2>
+
+      <p>
+        Find support that fits your goals, schedule, and family responsibilities.
+      </p>
+
+      <div class="button-grid">
+        <a href="about.html" class="btn">About Our Mission</a>
+        <a href="career.html" class="btn">Career Opportunities</a>
+        <a href="resume.html" class="btn">Resume Support</a>
+        <a href="training.html" class="btn">Training Programs</a>
+        <a href="financial.html" class="btn">Financial Resources</a>
+        <a href="business.html" class="btn">Business Support</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Why Single Parent Career Hub Exists</h2>
+
+      <p>
+        Many parents need opportunities that work around childcare, school schedules,
+        transportation challenges, and family responsibilities. This platform focuses
+        on helping parents find resources that fit their lives.
+      </p>
+
+      <a href="about.html" class="btn">Learn More About Our Mission</a>
+    </section>
+
+    <section class="card">
+      <h2>Find My Resources</h2>
+
+      <p>
+        Tell us what support you need and we will help connect you with career
+        opportunities, training programs, and resources designed with parents in mind.
+      </p>
+
+      <p>
+        You may remain anonymous. An email address is required only so we can provide
+        follow-up resources and support.
+      </p>
+
+      <div class="form-container">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdq44Zj7Xgv6vB4DLvR5Y0x25Js7oCZofZzMu5M0MPSyL4HKA/viewform?embedded=true"
+          width="100%"
+          height="1706"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Looking for More Career Opportunities?</h2>
+
+      <p>
+        The Opportunity Platform provides broader workforce resources, career
+        development tools, training programs, and professional growth opportunities
+        for anyone seeking their next step.
+      </p>
+
+      <a
+        href="https://arreiscodes.github.io/Opportunity-Platform/"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit Opportunity Platform
+      </a>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
