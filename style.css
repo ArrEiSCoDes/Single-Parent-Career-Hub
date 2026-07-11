@@ -429,3 +429,17 @@ height:180px;
 
 }
 ```
+/* Resource Library Full Width Fix */
+
+.resource-grid {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+.library-card {
+    width:100%;
+    display:block;
+}
