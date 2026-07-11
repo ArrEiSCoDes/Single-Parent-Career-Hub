@@ -463,3 +463,33 @@ height:180px;
     font-size: 0.9rem;
     line-height: 1.4;
 }
+/* ================================
+AI Spotlight Readability Fix
+================================ */
+
+.resource-card a,
+.resource-card a:hover {
+    color: #ffffff;
+}
+
+
+.resource-info {
+    background: rgba(23, 59, 99, 0.95) !important;
+    color: #ffffff !important;
+}
+
+
+.resource-info h3 {
+    color: #ffffff !important;
+}
+
+
+.resource-info p {
+    color: #f8fafc !important;
+}
+
+
+/* Make sure images don't affect text visibility */
+.resource-card img {
+    filter: brightness(0.85);
+}
