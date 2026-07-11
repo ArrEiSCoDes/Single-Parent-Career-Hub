@@ -443,3 +443,23 @@ height:180px;
     width:100%;
     display:block;
 }
+/* AI Spotlight Popup Text Fix */
+
+.resource-info {
+    background: rgba(23, 59, 99, 0.92);
+    color: #ffffff;
+}
+
+
+.resource-info h3 {
+    color: #ffffff;
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+
+.resource-info p {
+    color: #f8fafc;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
