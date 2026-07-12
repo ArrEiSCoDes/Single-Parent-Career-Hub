@@ -1,192 +1,72 @@
-# Single Parent Career Hub
+# 🌱 Single Parent Career Hub
 
-## Supporting Single Parents Through Flexible Career Pathways
+## Supporting Parents. Building Futures. Creating Opportunities.
 
-The **Single Parent Career Hub** is a resource platform created to help single parents navigate career growth, workforce opportunities, training, and financial stability while balancing the responsibilities of raising a family.
+![Single Parent Career Hub](screenshot.png)
 
-This platform was designed around a simple idea:
+Single Parent Career Hub is a resource platform created to help single parents discover career opportunities, training programs, employment resources, and financial growth tools while balancing family responsibilities.
 
-> Career opportunities should fit people's lives, not force people to choose between providing for their families and building their futures.
+## 💡 Why I Built This
 
-Many single parents face unique challenges when searching for employment and professional development opportunities, including:
+Many parents want to improve their careers but face challenges finding resources that fit their schedules, responsibilities, and personal goals.
 
-- Limited work availability
-- Childcare responsibilities
-- Transportation challenges
-- Need for remote work options
-- Need for flexible training schedules
-- Returning to work after time away
+This project was created to provide a central location where parents can find helpful resources in one place.
 
-This platform focuses on creating pathways that are realistic, flexible, and accessible.
+## ✨ Features
 
----
+### 💼 Career Support
 
-# Who This Platform Is For
+Resources to help users explore career pathways and employment opportunities.
 
-The Single Parent Career Hub is designed specifically for:
+### 📝 Resume Support
 
-✅ Single parents searching for employment opportunities  
-✅ Parents needing jobs that fit around school and childcare schedules  
-✅ Parents looking for remote or flexible work options  
-✅ Individuals returning to the workforce  
-✅ Parents seeking free training and certifications  
-✅ Parents interested in entrepreneurship and small business resources  
+Tools and resources designed to help improve resumes and job readiness.
 
----
+### 🎓 Training Opportunities
 
-# How This Is Different From Opportunity Platform
+Information about certifications, technology programs, and skill-building resources.
 
-Although both platforms connect people with resources, they serve different audiences.
+### 💰 Financial Growth
 
-## Single Parent Career Hub
+Resources focused on stability, career advancement, and entrepreneurship.
 
-### Focus: Parent-centered career support
-
-The Single Parent Career Hub is designed around the unique barriers many parents experience while building their careers.
-
-This platform focuses on:
-
-- Flexible employment options
-- Remote work opportunities
-- School-hour jobs
-- Parent-friendly training programs
-- Resume support for returning workers
-- Career pathways that work with family responsibilities
-- Business resources for parents building additional income streams
-
-The goal is not only to help someone find work.
-
-The goal is to help parents find opportunities that fit their current reality.
-
----
-
-# Opportunity Platform
-
-### Focus: General opportunity access
-
-The Opportunity Platform is a broader workforce resource hub designed for anyone seeking support with:
-
-- Employment
-- Career development
-- Education
-- Training
-- Financial resources
-- Business opportunities
-
-This platform supports:
-
-- Job seekers
-- Career changers
-- Students
-- Individuals looking for free resources
-- Anyone working toward professional growth
-
-Unlike the Single Parent Career Hub, it is not specifically built around parenting responsibilities or limited availability.
-
----
-
-# Why Two Platforms?
-
-Different people need different types of support.
-
-A person with open availability may be able to pursue opportunities that require:
-
-- Traditional schedules
-- Full-time availability
-- In-person programs
-- Standard training schedules
-
-A single parent may need:
-
-- Flexible hours
-- Remote options
-- Self-paced learning
-- Childcare-friendly opportunities
-- Career pathways designed around family responsibilities
-
-Creating separate platforms allows users to quickly identify which resources best match their needs.
-
----
-
-# Features
-
-## Current Features
-
-- Responsive multi-page website design
-- Career resource navigation
-- Resume support resources
-- Training and certification information
-- Financial literacy resources
-- Business development resources
-- Connected navigation between project platforms
-- Mobile-friendly design
-
----
-
-# Future Features
-
-Planned improvements include:
-
-- Personalized support request forms
-- Opportunity matching
-- Resource recommendations
-- AI-assisted career guidance
-- Community support features
-- Career pathway suggestions
-- Expanded referral resources
-
----
-
-# Technology Used
-
-Built with:
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
 - JavaScript
+- Responsive Web Design
 - GitHub Pages
 
----
+## 📚 Skills Developed
 
-# Project Mission
+Through this project I strengthened my skills in:
 
-The mission of the Single Parent Career Hub is to create a more accessible pathway for parents who want to improve their careers while balancing family responsibilities.
+- Front-end development
+- User-centered design
+- Website organization
+- Accessibility-focused design
+- Debugging and problem solving
+- Turning community challenges into technology solutions
 
-This project combines:
+## 🔭 Future Goals
 
-- Technology
-- Workforce development
-- Community resources
-- Career education
+Future improvements include:
 
-to help create opportunities that are flexible, realistic, and sustainable.
+- Adding an AI resource assistant
+- Creating personalized career pathways
+- Adding updated community resources
+- Connecting users with training opportunities
+- Expanding accessibility features
 
----
+## 🌟 Mission
 
-# Related Project
+My goal is to use technology to reduce barriers and make valuable resources easier for families to find.
 
-For broader career, workforce, and opportunity resources, visit:
+## 👩🏽‍💻 Developer
 
-## Opportunity Platform
+Created by Sierra Covington
 
-(Add your live link here)
+## 🔗 Live Site
 
----
-
-# Future Vision
-
-The long-term vision is to grow the Single Parent Career Hub into a community-centered platform that helps parents:
-
-- Discover opportunities
-- Build new skills
-- Access resources
-- Increase financial stability
-- Create stronger futures for their families
-
----
-
-## Created By
-
-ArrEiSCoDes
-
-Building technology solutions focused on community impact, accessibility, and opportunity.form
+https://arreiscodes.github.io/Single-Parent-Career-Hub/
